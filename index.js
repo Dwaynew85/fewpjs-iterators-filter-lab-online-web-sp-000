@@ -4,5 +4,5 @@ function findMatching(arr, name) {
 };
 
 function fuzzyMatch(arr, name) {
-  return arr.filter(x => x.include(name))
+  return arr.filter(x => x.includes(name))
 };
